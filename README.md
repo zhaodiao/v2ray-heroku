@@ -36,7 +36,7 @@ AlterID 为 64。
 
 80端口和443端口都可以使用，80端口速度普遍比443端口略快；443端口需要打开TLS，比80端口较安全。
 
-服务端开启了DoH，本地客户端dns服务器可选择`https://1.1.1.1/dns-query,https://rubyfish.cn/dns-query,https://dns.alidns.com/dns-query`
+服务端开启了DoH，本地客户端DNS服务器可选择`https://1.1.1.1/dns-query,https://rubyfish.cn/dns-query,https://dns.alidns.com/dns-query`这个是可选项，客户端可不做修改。
 
 V2Ray 将在部署时自动安装最新版本。
 
